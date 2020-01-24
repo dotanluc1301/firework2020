@@ -1,5 +1,11 @@
 {
-    "require": {
-        "phpunit/php-timer": "^2.1"
-    }
+    "name": "dotan/firework_project",
+    "description": "Firework for 2020",
+    "authors": [
+        {
+            "name": "Do Tan Luc",
+            "email": "dotanluc1301@gmail.com"
+        }
+    ],
+    "require": {}
 }
