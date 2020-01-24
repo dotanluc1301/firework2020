@@ -162,8 +162,8 @@ class firework {
         grd.addColorStop(0.5,"yellow");
         grd.addColorStop(1,"green");
         this.ctx.fillStyle = grd;
-        this.ctx.font = "25px Arial";
-        this.ctx.fillText("HAPPY NEW YEAR",WIDTH/12, HEIGHT/2);
+        this.ctx.font = "30px Arial";
+        this.ctx.fillText("HAPPY NEW YEAR",WIDTH/8, HEIGHT/2);
         //this.ctx.fillText("NEW",WIDTH/6, HEIGHT/2);
         //this.ctx.fillText("YEAR",WIDTH/6, HEIGHT/2);
         this.bullets.forEach(bullet => bullet.draw());
